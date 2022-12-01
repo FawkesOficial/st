@@ -3,6 +3,19 @@
 The [suckless terminal (st)](https://st.suckless.org/) with some additional
 features that make it literally the best terminal emulator ever:
 
+---
+
+## Shell Priorities:
+
+I did change the way st chooses wich program to run when called and therefore, the way it chooses wich shell to run. By default, if run without any arguments, `st` will run whatever $SHELL is set to and if that isn't set, it will look in `/etc/passwd` for a shell to run. What I did for this build was switch this order so that `st` will look for a shell in `/etc/passwd` first. This is usefull because now you can change wich shell `st` is going to run using `chsh`.
+
+Example:
+
+`chsh -s /bin/zsh`
+
+---
+
+
 ## Unique features (using dmenu)
 
 + **follow urls** by pressing `alt-l`
@@ -85,5 +98,9 @@ Note that when you run `wal`, it will negate the transparency of existing window
 
 ## Contact
 
-- Luke Smith <luke@lukesmith.xyz>
+- [Github](https://github.com/FawkesOficial)
+- [Twitter](https://twitter.com/FawkesOficial)
+
+Luke Smith:
+- <luke@lukesmith.xyz>
 - [https://lukesmith.xyz](https://lukesmith.xyz)
