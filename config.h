@@ -5,12 +5,12 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Noto Sans Mono:style=Regular:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Noto Sans Mono:style=Regular:pixelsize=20:antialias=true:autohint=true";
 static char *font2[] = {
-	"Noto Color Emoji:pixelsize:16:antialias=true:autohint=true"
-	"Font Awesome 6 Free:style=Solid:pixelsize=16:antialias=true:autohint=true",
-	"Font Awesome 6 Brands:pixelsize=16:antialias=true:autohint=true",
-	"NotoSansMono Nerd Font Mono:pixelsize=16:antialias=true:autohint=true"
+	"Noto Color Emoji:pixelsize:20:antialias=true:autohint=true"
+	"Font Awesome 6 Free:style=Solid:pixelsize=20:antialias=true:autohint=true",
+	"Font Awesome 6 Brands:pixelsize=20:antialias=true:autohint=true",
+	"NotoSansMono Nerd Font Mono:pixelsize=20:antialias=true:autohint=true"
 };
 static int borderpx = 2;
 
