@@ -7,7 +7,7 @@ features that make it literally the best terminal emulator ever:
 
 ## Shell Priorities:
 
-I did change the way st chooses wich program to run when called and therefore, the way it chooses wich shell to run. By default, if run without any arguments, `st` will run whatever $SHELL is set to and if that isn't set, it will look in `/etc/passwd` for a shell to run. What I did for this build was switch this order so that `st` will look for a shell in `/etc/passwd` first. This is usefull because now you can change wich shell `st` is going to run using `chsh`.
+I did change the way st chooses which program to run when called and therefore, the way it chooses which shell to run. By default, if run without any arguments, `st` will run whatever $SHELL is set to and if that isn't set, it will look in `/etc/passwd` for a shell to run. What I did for this build was switch this order so that `st` will look for a shell in `/etc/passwd` first. This is useful because now you can change which shell `st` is going to run using `chsh`.
 
 Example:
 
@@ -46,6 +46,7 @@ Example:
 + Ligatures
 + font2
 + updated to latest version 0.8.5
++ anysize
 
 ## Installation for newbs
 
@@ -84,7 +85,7 @@ For example, you can define your desired fonts, transparency or colors:
 ```
 
 The `alpha` value (for transparency) goes from `0` (transparent) to `1`
-(opaque). There is an example `Xdefaults` file in this respository.
+(opaque). There is an example `Xdefaults` file in this repository.
 
 ### Colors
 
